@@ -1,0 +1,35 @@
+body { 
+    background-color:darkslategrey;
+}
+
+.flex-container { 
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-white { 
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-red-rgb),var(--bs-text-opacity))!important;
+}
+
+.icon-square { 
+    border-radius: 20%;
+}
+
+@media (max-width :600px) { 
+    .px-4 { 
+        width: 50%;
+    }
+}
+
+h1 { 
+    text-align:center;
+}
+
+.inner-container { 
+    border: solid black 2px;
+
+}
